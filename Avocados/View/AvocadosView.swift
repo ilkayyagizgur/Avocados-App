@@ -52,7 +52,7 @@ Creamy, green, and full of nutrients! Avocado is a powerhouse ingredient at any 
                 .resizable()
                 .scaledToFill()
         )
-        .edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea(.top)
         .onAppear {
             withAnimation(.easeInOut(duration: 2).repeatForever(autoreverses: true)){
                 pulsateAnimation.toggle()

@@ -35,7 +35,9 @@ struct AppView: View {
                 })
             
         } //: TAB
+        .edgesIgnoringSafeArea(.top)
         .accentColor(Color.primary)
+        
     }
 }
 
